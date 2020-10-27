@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Prints 10 times and hi at 9
+while((i++ < 10)); do echo "Holberton School"; if [ $i == 9 ]; then echo "Hi"; fi; done
