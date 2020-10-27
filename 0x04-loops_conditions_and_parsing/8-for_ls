@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#ls but with name
+list="$(ls)"; for name in $list; do echo "$name" | cut -d "-" -f 2; done
