@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This read and cut a linkedlist
+while read -r linkedlist; do echo "$linkedlist" | cut -d ":" -f1,3,6; done < "/etc/passwd"
